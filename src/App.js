@@ -30,10 +30,16 @@ function App() {
   };
   return (
     <div className="App">
-      <h1>ImText</h1>
-      <p>Gets Word In Image</p>
+      <h1>
+        Im<span className="logo-color">Text</span>
+      </h1>
+      <h1 className="title-hero">Upload an image to convert text </h1>
+
       <div className="input-wrapper">
-        <label htmlFor="upload">Upload Image</label>
+        <label htmlFor="upload">
+          <i class="fa-solid fa-upload"></i>
+          Upload Image
+        </label>
         <input
           type="file"
           id="upload"
